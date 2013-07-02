@@ -6,20 +6,18 @@ that isn't a real error. This inanity makes effective unit-testing difficult and
 practices. But now, thankfully, you can use `php-date-prefix` to solve all your problems! No more
 requiring a moronic php.ini file just to use PHP as a programming language!
 
-### Usage
+### Usage:
 
 ```php
 <?php
-
 require 'php-date-prefix.php'; // problem solved!
 echo date('Y-m-d'),  " doesn't trigger errors! Woohoo!\n";
 ```
 
-### Source Code
+### Source Code:
 
 ```php
 <?php
-
 // Derick Rethans hates good design.
 date_default_timezone_set('UTC');
 ```
