@@ -21,3 +21,7 @@ echo date('Y-m-d'),  " doesn't trigger errors! Woohoo!\n";
 // Derick Rethans hates good design.
 date_default_timezone_set('UTC');
 ```
+
+##### Epilogue:
+
+Mr. Rethans has done *a lot of great work* for PHP. This is not meant to antagonize ... just to point out a glaring language-level PHP fail.
